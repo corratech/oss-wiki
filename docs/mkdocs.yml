@@ -40,8 +40,8 @@ markdown_extensions:
       permalink: ⚓︎
       toc_depth: 3
 nav:
-  - 'index.md'
-  - Documents:
-      - PsyCloud: 'psy-mcloud.md'
-      - Terraform: 'terraform.md'
+  - 'Corratech OSS Wiki': 'index.md'
+  - 'Documents':
+      - 'Psychedelic Magento Cloud': 'psy-mcloud.md'
+      - 'Terraform Automation': 'terraform.md'
   - About: 'about.md'

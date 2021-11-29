@@ -42,5 +42,6 @@ markdown_extensions:
 nav:
   - 'index.md'
   - Documents:
-      - 'psy-mcloud.md'
-  - about: 'about.md'
+      - PsyCloud: 'psy-mcloud.md'
+      - Terraform: 'terraform.md'
+  - About: 'about.md'

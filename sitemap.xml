@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/corratech/oss-wiki/about/</loc>
+         <lastmod>2021-11-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/corratech/oss-wiki/psy-mcloud/</loc>
          <lastmod>2021-11-29</lastmod>
          <changefreq>daily</changefreq>

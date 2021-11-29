@@ -42,5 +42,3 @@ markdown_extensions:
       toc_depth: 3
 nav:
   - 'index.md'
-
-docs_dir: docs/docs  

@@ -1,8 +1,10 @@
+repo_name: 'Corratech'
 repo_url: https://github.com/corratech/oss-wiki
 site_name: Corratech OSS
 site_url: https://github.com/corratech/oss-wiki/
-site_description: Documentation of KentaOkamoto
+site_description: Corrattech OSS Wiki
 site_author: Corra Devops
+edit_uri: edit/main/docs/docs/
 
 theme:
   name: material
@@ -33,9 +35,12 @@ markdown_extensions:
   - admonition
   - footnotes
   - attr_list
+  - codehilite
+  - toc-sidebar
   - toc:
       permalink: ⚓︎
       toc_depth: 3
 nav:
   - 'index.md'
-  
+
+docs_dir: docs/docs  

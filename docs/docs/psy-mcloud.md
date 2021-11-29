@@ -1,6 +1,6 @@
 # Psychedelic Magento Cloud
 
-Adobe Commerce Cloud formerly known as Magento Cloud is a Platform as a Service (PaaS) environment for magento 2x family of ecommerce framework. The "Psychedelic MCloud" is a group of custom scripts created in bash to enable, history, tmux integration etc.
+Adobe Commerce Cloud formerly known as Magento Cloud is a Platform as a Service (PaaS) environment for magento 2x family of ecommerce framework. The PaaS is hosted by Adobe on Platform.sh. Customers are given access to the hosted server via restricted SSH acecss. There is only a common SSH user for all user account's created under magento-cloud. The SSH user do not have a dedicated `$HOME` directory. The "Psychedelic MCloud" is a group of custom scripts created to create an overlay over these restrctions and give bash history and other integrations.
 
 ## Details
 

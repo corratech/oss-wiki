@@ -41,4 +41,6 @@ markdown_extensions:
       toc_depth: 3
 nav:
   - 'index.md'
-  - 'psy-mcloud.md'
+  - Documents:
+      - 'psy-mcloud.md'
+  - about: 'about.md'

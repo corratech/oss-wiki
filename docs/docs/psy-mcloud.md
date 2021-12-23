@@ -28,6 +28,12 @@ The tux customization contains the basic `tmux.conf` file and a custom `shell` t
 The `tmux.conf` try to use a custom shell from the file `shell` from the above bash bash customization.
 The `tmux.conf` also have support for mouse support for various versions of tmux found in new-generation and old-generation cloud servers.
 
+#### Initiate tmux
+
+```
+tmux -f var/corra/tmux/tmux.conf new -s corra_devops_01
+```
+
 ### MySQL Scripts
 
 There are two mysql customizations in this directory.

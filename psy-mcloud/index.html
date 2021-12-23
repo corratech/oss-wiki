@@ -466,6 +466,10 @@
 <p>The tux customization contains the basic <code>tmux.conf</code> file and a custom <code>shell</code> to enable bash overrides.</p>
 <p>The <code>tmux.conf</code> try to use a custom shell from the file <code>shell</code> from the above bash bash customization.
 The <code>tmux.conf</code> also have support for mouse support for various versions of tmux found in new-generation and old-generation cloud servers.</p>
+<h4 id="initiate-tmux">Initiate tmux<a class="headerlink" href="#initiate-tmux" title="Permanent link">⚓︎</a></h4>
+<div class="codehilite"><pre><span></span><code><span class="n">tmux</span> <span class="o">-</span><span class="n">f</span> <span class="k">var</span><span class="o">/</span><span class="n">corra</span><span class="o">/</span><span class="n">tmux</span><span class="o">/</span><span class="n">tmux</span><span class="o">.</span><span class="n">conf</span> <span class="n">new</span> <span class="o">-</span><span class="n">s</span> <span class="n">corra_devops_01</span>
+</code></pre></div>
+
 <h3 id="mysql-scripts">MySQL Scripts<a class="headerlink" href="#mysql-scripts" title="Permanent link">⚓︎</a></h3>
 <p>There are two mysql customizations in this directory.
 The <code>myconnect</code> is used to connect to mysql by directly reading <code>app/etc/env.php</code>.

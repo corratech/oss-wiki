@@ -12,21 +12,21 @@
         <meta name="author" content="Corra Devops">
       
       
-        <link rel="canonical" href="https://github.com/corratech/oss-wiki/terraform/">
+        <link rel="canonical" href="https://github.com/corratech/oss-wiki/snippets/cloud-db-auth/">
       
-      <link rel="icon" href="../images/favicon.png">
+      <link rel="icon" href="../../images/favicon.png">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
     
     
       
-        <title>Terraform Automation - Corratech OSS</title>
+        <title>Cloud DB Authentication - Corratech OSS</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6e60f8b8.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.6e60f8b8.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
         
       
     
@@ -40,7 +40,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#terraform" class="md-skip">
+        <a href="#magento-2x-cloud-db-authentication" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Corratech OSS" class="md-header__button md-logo" aria-label="Corratech OSS" data-md-component="logo">
+    <a href="../.." title="Corratech OSS" class="md-header__button md-logo" aria-label="Corratech OSS" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M32 224h32v192H32a31.962 31.962 0 0 1-32-32V256a31.962 31.962 0 0 1 32-32zm512-48v272a64.063 64.063 0 0 1-64 64H160a64.063 64.063 0 0 1-64-64V176a79.974 79.974 0 0 1 80-80h112V32a32 32 0 0 1 64 0v64h112a79.974 79.974 0 0 1 80 80zm-280 80a40 40 0 1 0-40 40 39.997 39.997 0 0 0 40-40zm-8 128h-64v32h64zm96 0h-64v32h64zm104-128a40 40 0 1 0-40 40 39.997 39.997 0 0 0 40-40zm-8 128h-64v32h64zm192-128v128a31.962 31.962 0 0 1-32 32h-32V224h32a31.962 31.962 0 0 1 32 32z"/></svg>
@@ -97,7 +97,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Terraform Automation
+              Cloud DB Authentication
             
           </span>
         </div>
@@ -172,10 +172,26 @@
 
 
   <li class="md-tabs__item">
-    <a href=".." class="md-tabs__link">
+    <a href="../.." class="md-tabs__link">
       Corratech OSS Wiki
     </a>
   </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../psy-mcloud/" class="md-tabs__link">
+        Documents
+      </a>
+    </li>
+  
 
       
         
@@ -189,23 +205,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../psy-mcloud/" class="md-tabs__link md-tabs__link--active">
-        Documents
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-
-
-  
-  
-  
-    <li class="md-tabs__item">
-      <a href="../snippets/cloud-db-auth/" class="md-tabs__link">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         Snippets
       </a>
     </li>
@@ -218,7 +218,7 @@
 
 
   <li class="md-tabs__item">
-    <a href="../about/" class="md-tabs__link">
+    <a href="../../about/" class="md-tabs__link">
       About
     </a>
   </li>
@@ -247,7 +247,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Corratech OSS" class="md-nav__button md-logo" aria-label="Corratech OSS" data-md-component="logo">
+    <a href="../.." title="Corratech OSS" class="md-nav__button md-logo" aria-label="Corratech OSS" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M32 224h32v192H32a31.962 31.962 0 0 1-32-32V256a31.962 31.962 0 0 1 32-32zm512-48v272a64.063 64.063 0 0 1-64 64H160a64.063 64.063 0 0 1-64-64V176a79.974 79.974 0 0 1 80-80h112V32a32 32 0 0 1 64 0v64h112a79.974 79.974 0 0 1 80 80zm-280 80a40 40 0 1 0-40 40 39.997 39.997 0 0 0 40-40zm-8 128h-64v32h64zm96 0h-64v32h64zm104-128a40 40 0 1 0-40 40 39.997 39.997 0 0 0 40-40zm-8 128h-64v32h64zm192-128v128a31.962 31.962 0 0 1-32 32h-32V224h32a31.962 31.962 0 0 1 32 32z"/></svg>
@@ -278,7 +278,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         Corratech OSS Wiki
       </a>
     </li>
@@ -291,14 +291,12 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" data-md-state="indeterminate" type="checkbox" id="__nav_2" checked>
       
       
       
@@ -321,7 +319,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../psy-mcloud/" class="md-nav__link">
+      <a href="../../psy-mcloud/" class="md-nav__link">
         Psychedelic Magento Cloud
       </a>
     </li>
@@ -333,21 +331,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../terraform/" class="md-nav__link">
         Terraform Automation
       </a>
-      
     </li>
   
 
@@ -365,12 +353,14 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" data-md-state="indeterminate" type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
@@ -391,11 +381,80 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../snippets/cloud-db-auth/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Cloud DB Authentication
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Cloud DB Authentication
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#set-time" class="md-nav__link">
+    Set Time
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ticket-number" class="md-nav__link">
+    Ticket Number
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#set-authentication-variables" class="md-nav__link">
+    Set Authentication variables:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connect-to-mysql-with-above-set-authentication-variables" class="md-nav__link">
+    Connect to MySQL with above set authentication variables.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#database-dump" class="md-nav__link">
+    Database Dump
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -407,7 +466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../snippets/cloud-cron-disable/" class="md-nav__link">
+      <a href="../cloud-cron-disable/" class="md-nav__link">
         Cloud Cron Disable
       </a>
     </li>
@@ -429,7 +488,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         About
       </a>
     </li>
@@ -448,12 +507,42 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/corratech/oss-wiki/edit/main/docs/docs/terraform.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/corratech/oss-wiki/edit/main/docs/docs/snippets/cloud-db-auth.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
-<h1 id="terraform">Terraform<a class="headerlink" href="#terraform" title="Permanent link">⚓︎</a></h1>
+<h1 id="magento-2x-cloud-db-authentication">Magento 2x Cloud DB Authentication<a class="headerlink" href="#magento-2x-cloud-db-authentication" title="Permanent link">⚓︎</a></h1>
+<h2 id="set-time">Set Time<a class="headerlink" href="#set-time" title="Permanent link">⚓︎</a></h2>
+<div class="codehilite"><pre><span></span><code>BKPTIM=$(date +&quot;%Y-%m-%d_%H-%M-%S&quot;)
+</code></pre></div>
+
+<h2 id="ticket-number">Ticket Number<a class="headerlink" href="#ticket-number" title="Permanent link">⚓︎</a></h2>
+<p>Optionally set ticket number if required.</p>
+<div class="codehilite"><pre><span></span><code>TKT=&quot;CORRA=123&quot;
+</code></pre></div>
+
+<h2 id="set-authentication-variables">Set Authentication variables:<a class="headerlink" href="#set-authentication-variables" title="Permanent link">⚓︎</a></h2>
+<div class="codehilite"><pre><span></span><code><span class="k">export</span><span class="w"> </span><span class="n">DB_NAME</span><span class="o">=$</span><span class="p">(</span><span class="n">grep</span><span class="w"> </span><span class="p">[</span>\<span class="s1">&#39;]db[</span><span class="se">\&#39;</span><span class="s1">] -A 20 app/etc/env.php | grep dbname | head -n1 | sed &quot;s/.*[=][&gt;][ ]*[&#39;</span><span class="p">]</span><span class="o">//</span><span class="s2">&quot; | sed &quot;</span><span class="n">s</span><span class="o">/</span><span class="p">[</span><span class="s1">&#39;][,]//&quot;);</span>
+
+<span class="k">export</span><span class="w"> </span><span class="n">MYSQL_HOST</span><span class="o">=$</span><span class="p">(</span><span class="n">grep</span><span class="w"> </span><span class="p">[</span>\<span class="s1">&#39;]db[</span><span class="se">\&#39;</span><span class="s1">] -A 20 app/etc/env.php | grep host | head -n1 | sed &quot;s/.*[=][&gt;][ ]*[&#39;</span><span class="p">]</span><span class="o">//</span><span class="s2">&quot; | sed &quot;</span><span class="n">s</span><span class="o">/</span><span class="p">[</span><span class="s1">&#39;][,]//&quot;);</span>
+
+<span class="k">export</span><span class="w"> </span><span class="n">DB_USER</span><span class="o">=$</span><span class="p">(</span><span class="n">grep</span><span class="w"> </span><span class="p">[</span>\<span class="s1">&#39;]db[</span><span class="se">\&#39;</span><span class="s1">] -A 20 app/etc/env.php | grep username | head -n1 | sed &quot;s/.*[=][&gt;][ ]*[&#39;</span><span class="p">]</span><span class="o">//</span><span class="s2">&quot; | sed &quot;</span><span class="n">s</span><span class="o">/</span><span class="p">[</span><span class="s1">&#39;][,]//&quot;);</span>
+
+<span class="k">export</span><span class="w"> </span><span class="n">MYSQL_PWD</span><span class="o">=$</span><span class="p">(</span><span class="n">grep</span><span class="w"> </span><span class="p">[</span>\<span class="s1">&#39;]db[</span><span class="se">\&#39;</span><span class="s1">] -A 20 app/etc/env.php | grep password | head -n1 | sed &quot;s/.*[=][&gt;][ ]*[&#39;</span><span class="p">]</span><span class="o">//</span><span class="s2">&quot; | sed &quot;</span><span class="n">s</span><span class="o">/</span><span class="p">[</span><span class="s1">&#39;]$//&quot; | sed &quot;s/[&#39;</span><span class="p">][,]</span><span class="o">//</span><span class="s2">&quot;);</span>
+</code></pre></div>
+
+<h2 id="connect-to-mysql-with-above-set-authentication-variables">Connect to MySQL with above set authentication variables.<a class="headerlink" href="#connect-to-mysql-with-above-set-authentication-variables" title="Permanent link">⚓︎</a></h2>
+<div class="codehilite"><pre><span></span><code>mysql -h $MYSQL_HOST -u $DB_USER --password=$MYSQL_PWD $DB_NAME -A
+</code></pre></div>
+
+<h2 id="database-dump">Database Dump<a class="headerlink" href="#database-dump" title="Permanent link">⚓︎</a></h2>
+<div class="codehilite"><pre><span></span><code><span class="n">mysqldump</span><span class="w"> </span><span class="o">-</span><span class="n">h</span><span class="w"> </span><span class="o">$</span><span class="n">MYSQL_HOST</span><span class="w"> </span><span class="o">-</span><span class="n">u</span><span class="w"> </span><span class="o">$</span><span class="n">DB_USER</span><span class="w"> </span><span class="o">--</span><span class="n">password</span><span class="o">=$</span><span class="n">MYSQL_PWD</span><span class="w"> </span><span class="o">$</span><span class="n">DB_NAME</span><span class="w"> </span><span class="o">--</span><span class="n">opt</span><span class="w"> </span><span class="o">--</span><span class="n">single</span><span class="o">-</span><span class="n">transaction</span><span class="w"> </span><span class="o">--</span><span class="n">skip</span><span class="o">-</span><span class="n">lock</span><span class="o">-</span><span class="n">tables</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">sed</span><span class="w"> </span><span class="o">-</span><span class="n">e</span><span class="w"> </span><span class="s1">&#39;s/DEFINER[ ]*=[ ]*[^*]*\*/\*/&#39;</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">gzip</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="k">var</span><span class="o">/</span><span class="n">backups</span><span class="o">/$</span><span class="n">DB_NAME</span><span class="o">.$</span><span class="p">{</span><span class="n">BKPTIM</span><span class="p">}</span><span class="o">.</span><span class="n">sql</span><span class="o">.</span><span class="n">gz</span><span class="w"></span>
+</code></pre></div>
+
+<p>If you want to add the ticket name to the dump as well.</p>
+<div class="codehilite"><pre><span></span><code><span class="n">mysqldump</span><span class="w"> </span><span class="o">-</span><span class="n">h</span><span class="w"> </span><span class="o">$</span><span class="n">MYSQL_HOST</span><span class="w"> </span><span class="o">-</span><span class="n">u</span><span class="w"> </span><span class="o">$</span><span class="n">DB_USER</span><span class="w"> </span><span class="o">--</span><span class="n">password</span><span class="o">=$</span><span class="n">MYSQL_PWD</span><span class="w"> </span><span class="o">$</span><span class="n">DB_NAME</span><span class="w"> </span><span class="o">--</span><span class="n">opt</span><span class="w"> </span><span class="o">--</span><span class="n">single</span><span class="o">-</span><span class="n">transaction</span><span class="w"> </span><span class="o">--</span><span class="n">skip</span><span class="o">-</span><span class="n">lock</span><span class="o">-</span><span class="n">tables</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">sed</span><span class="w"> </span><span class="o">-</span><span class="n">e</span><span class="w"> </span><span class="s1">&#39;s/DEFINER[ ]*=[ ]*[^*]*\*/\*/&#39;</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">gzip</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="k">var</span><span class="o">/</span><span class="n">backups</span><span class="o">/$</span><span class="n">TKT</span><span class="o">.$</span><span class="n">DB_NAME</span><span class="o">.$</span><span class="p">{</span><span class="n">BKPTIM</span><span class="p">}</span><span class="o">.</span><span class="n">sql</span><span class="o">.</span><span class="n">gz</span><span class="w"></span>
+</code></pre></div>
 
               
             </article>
@@ -472,7 +561,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../psy-mcloud/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Psychedelic Magento Cloud" rel="prev">
+        <a href="../../terraform/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Terraform Automation" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -481,20 +570,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Psychedelic Magento Cloud
+              Terraform Automation
             </div>
           </div>
         </a>
       
       
         
-        <a href="../snippets/cloud-db-auth/" class="md-footer__link md-footer__link--next" aria-label="Next: Cloud DB Authentication" rel="next">
+        <a href="../cloud-cron-disable/" class="md-footer__link md-footer__link--next" aria-label="Next: Cloud Cron Disable" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Cloud DB Authentication
+              Cloud Cron Disable
             </div>
           </div>
           <div class="md-footer__button md-icon">
@@ -528,10 +617,10 @@
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.expand", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.expand", "navigation.top", "toc.integrate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.22074ed6.min.js"}</script>
     
     
-      <script src="../assets/javascripts/bundle.960e086b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.960e086b.min.js"></script>
       
     
   </body>

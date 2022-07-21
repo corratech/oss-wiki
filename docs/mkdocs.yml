@@ -41,9 +41,6 @@ markdown_extensions:
       toc_depth: 3
 nav:
   - 'Corratech OSS Wiki': 'index.md'
-  - 'Documents':
-      - 'Psychedelic Magento Cloud': 'psy-mcloud.md'
-      - 'Terraform Automation': 'terraform.md'
   - 'Snippets':
       - 'Cloud DB Authentication': 'snippets/cloud-db-auth.md'
       - 'Cloud Cron Disable': 'snippets/cloud-cron-disable.md'
